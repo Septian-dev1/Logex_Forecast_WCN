@@ -437,10 +437,4 @@ python -m pytest tests/
 
 ---
 
-<div align="center">
 
-**Dibuat dengan ❤️ untuk ekosistem kesehatan yang lebih baik**
-
-⭐ Star repo ini jika bermanfaat! ⭐
-
-</div>
