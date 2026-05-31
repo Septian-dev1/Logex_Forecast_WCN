@@ -6,7 +6,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Prophet](https://img.shields.io/badge/Prophet-Meta-0467DF?style=for-the-badge&logo=meta&logoColor=white)](https://facebook.github.io/prophet/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
 
 <br/>
@@ -34,7 +33,6 @@
 - [Metodologi](#-metodologi)
 - [FAQ](#-faq)
 - [Kontribusi](#-kontribusi)
-- [Lisensi](#-lisensi)
 
 ---
 
@@ -148,7 +146,6 @@
 WCN_Forecast/
 │
 ├── 📄 README.md                  # Dokumentasi project (file ini)
-├── 📄 LICENSE                    # Lisensi MIT
 ├── 📄 requirements.txt           # Daftar dependensi Python
 ├── 📄 .gitignore                 # File yang diabaikan Git
 ├── 📄 .env.example               # Template konfigurasi environment
@@ -437,12 +434,6 @@ pip install -r requirements.txt
 # Jalankan tests
 python -m pytest tests/
 ```
-
----
-
-## 📄 Lisensi
-
-Project ini dilisensikan di bawah **MIT License** — lihat file [LICENSE](LICENSE) untuk detail.
 
 ---
 
