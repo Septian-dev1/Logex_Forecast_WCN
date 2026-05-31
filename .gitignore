@@ -1,0 +1,69 @@
+# WCN Forecast - .gitignore
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# === Virtual Environment ===
+venv/
+.venv/
+env/
+ENV/
+Lib/
+Scripts/
+share/
+etc/
+Include/
+pyvenv.cfg
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# === Data Files (jangan commit data mentah) ===
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.xlsx
+data/output/*.csv
+data/output/*.xlsx
+
+# === Output Files ===
+*.csv
+!requirements.txt
+prophet_forecast*.csv
+prophet_pivot_table*.xlsx
+prophet_export*.xlsx
+
+# === Environment ===
+.env
+.env.local
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs ===
+*.log
+logs/
+
+# === Prophet / Stan ===
+*.pkl
+*.joblib
